@@ -26,7 +26,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
-          <div className="container mx-auto p-6">{children}</div>
+          <div className="container mx-auto p-6 min-h-[calc(80dvh)]">
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>
