@@ -5,13 +5,13 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-const SignInForm = () => {
-  interface SigninType {
+const LoginForm = () => {
+  interface LoginType {
     email: string;
     password: string;
   }
 
-  const initialForm: SigninType = {
+  const initialForm: LoginType = {
     email: "",
     password: "",
   };
@@ -66,4 +66,4 @@ const SignInForm = () => {
   );
 };
 
-export default SignInForm;
+export default LoginForm;
