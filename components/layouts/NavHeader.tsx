@@ -7,9 +7,9 @@ const NavHeader = () => {
   const pathname = usePathname();
 
   const links = [
-    { label: "sign out", href: "/signout" },
-    { label: "sign Up", href: "/signup" },
-    { label: "sign In", href: "/signin" },
+    { label: "log out", href: "/logout" },
+    { label: "sign up", href: "/register" },
+    { label: "log in", href: "/login" },
   ];
 
   return (
